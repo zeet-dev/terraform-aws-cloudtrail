@@ -1,7 +1,3 @@
-provider "aws" {
-  region = var.region
-}
-
 module "cloudtrail" {
   source = "cloudposse/cloudtrail/aws"
   version     = "0.21.0"
